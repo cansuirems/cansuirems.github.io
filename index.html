@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>İrem Cansu – Bulut Bilişim Operatörlüğü Öğrencisi</title>
+<style>
+:root{
+  --bg:#f3f6f7; --surface:#ffffff; --ink:#14262b; --muted:#546a70;
+  --accent:#0f6b73; --accent-soft:#dcefef; --line:#d5e0e2;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1a1d; --surface:#16262a; --ink:#e6f0f1; --muted:#9bb2b6;
+    --accent:#5fc3c9; --accent-soft:#1d3a3e; --line:#264145;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1a1d; --surface:#16262a; --ink:#e6f0f1; --muted:#9bb2b6;
+  --accent:#5fc3c9; --accent-soft:#1d3a3e; --line:#264145;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:Georgia,"Times New Roman",serif; line-height:1.65;
+}
+.wrap{max-width:860px; margin:0 auto; padding:24px 18px 56px}
+header{
+  background:var(--accent); color:#fff; border-radius:14px;
+  padding:34px 28px; margin-bottom:22px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) header{color:#0b1a1c}}
+:root[data-theme="dark"] header{color:#0b1a1c}
+h1{margin:0 0 6px; font-size:clamp(2rem,6vw,3rem); letter-spacing:.01em; line-height:1.15}
+header p{margin:0; font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:1.05rem; opacity:.92}
+main{display:grid; gap:18px}
+section{
+  background:var(--surface); border:1px solid var(--line);
+  border-radius:12px; padding:22px 24px;
+}
+h2{
+  margin:0 0 12px; font-size:1.3rem; color:var(--accent);
+  border-bottom:2px solid var(--accent-soft); padding-bottom:8px;
+}
+p{margin:0}
+.sub{font-weight:bold}
+.meta{color:var(--muted); font-family:system-ui,sans-serif; font-size:.92rem}
+ul{margin:10px 0 0; padding-left:20px}
+li{margin:4px 0}
+.chips{display:flex; flex-wrap:wrap; gap:8px; padding:0; margin:0; list-style:none}
+.chips li{
+  margin:0; padding:6px 14px; border-radius:999px;
+  background:var(--accent-soft); color:var(--ink);
+  font-family:system-ui,sans-serif; font-size:.92rem;
+}
+.cols{columns:2; column-gap:28px}
+.cols li{break-inside:avoid}
+@media (max-width:560px){
+  .cols{columns:1}
+  header{padding:26px 20px}
+  section{padding:18px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>İrem Cansu</h1>
+    <p>Bulut Bilişim Operatörlüğü Öğrencisi · Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Hakkımda</h2>
+      <p>Bulut bilişim, sistem yönetimi ve ağ teknolojileri alanında kendini geliştiren, öğrenmeye açık bir ön lisans öğrencisiyim. Teknik konularda araştırma yapmayı ve uygulamalı çalışmayı seviyorum.</p>
+    </section>
+
+    <section>
+      <h2>Eğitim</h2>
+      <p class="sub">Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi</p>
+      <p>Bulut Bilişim Operatörlüğü – Ön Lisans</p>
+      <p class="meta">2025 – Devam ediyor</p>
+    </section>
+
+    <section>
+      <h2>Staj Deneyimi</h2>
+      <p class="sub">Orman Bölge Müdürlüğü – Bilişim Stajyeri</p>
+      <ul>
+        <li>Windows kurulumu ve sistem ayarları</li>
+        <li>Bilgisayar ve donanım envanteri</li>
+        <li>IP ve bilgisayar adı kontrolleri</li>
+        <li>Yazıcı ve ağ bağlantıları</li>
+        <li>HDD/RAM ve temel donanım işlemleri</li>
+        <li>Switch, modem ve patch panel kontrolleri</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Teknik Beceriler</h2>
+      <ul class="chips">
+        <li>Windows</li>
+        <li>Linux / Ubuntu Server</li>
+        <li>Windows Server</li>
+        <li>Temel ağ teknolojileri</li>
+        <li>Python</li>
+        <li>VirtualBox</li>
+        <li>Nginx</li>
+        <li>Bilgisayar donanımı</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kişisel Yetkinlikler</h2>
+      <ul class="cols">
+        <li>Öğrenmeye ve kendini geliştirmeye açık</li>
+        <li>Sorumluluk sahibi ve disiplinli</li>
+        <li>Araştırmacı ve çözüm odaklı</li>
+        <li>Teknik sorunları analiz etme ve çözüm üretme</li>
+        <li>Takım çalışmasına uyumlu</li>
+        <li>İletişim becerileri güçlü</li>
+        <li>Detaylara önem veren</li>
+        <li>Yeni teknolojilere ve bilişim alanına ilgili</li>
+        <li>Zaman yönetimine önem veren</li>
+        <li>Yoğun çalışma temposuna uyum sağlayabilen</li>
+      </ul>
+    </section>
+  </main>
+</div>
+</body>
+</html>
